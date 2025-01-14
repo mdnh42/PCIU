@@ -1,19 +1,13 @@
 #include <stdio.h>
-
 int main()
 {
     int c, r, c1, r1;
-    printf("Enter your first Matrix Row and Column: ");
     scanf("%d %d", &r, &c);
-
-    printf("Enter your Second Matrix Row and Column: ");
     scanf("%d %d", &r1, &c1);
-
     if (c != r1)
     {
         printf("Maxtrix Multiple is not possible");
     }
-
     int matrix1[r][c], martrix2[r1][c1];
     printf("Enter your First Matrix: ");
     for (int i = 0; i < r; i++)

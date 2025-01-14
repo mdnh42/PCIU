@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+class Book {
+public:
+    // Constructor
+    Book() {
+        cout << "Book object created!" << endl;
+    }
+
+    // Destructor
+    ~Book() {
+        cout << "Book object destroyed!" << endl;
+    }
+};
+
+int main() {
+    Book book1;  // Constructor will be called here
+    return 0;  // Destructor will be called here
+}
